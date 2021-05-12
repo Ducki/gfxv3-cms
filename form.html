@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+	<title>Login-Formular</title>
+	
+	<script type="text/javascript">
+	
+	function toggle() {
+	
+		if(document.getElementById('auto_login').checked == true) {
+		
+			if(document.getElementById('auto_options').style.display=="none") {
+			
+				document.getElementById('auto_options').style.display='block';
+			
+			}
+		
+		}
+		else {
+		
+			document.getElementById('auto_options').style.display='none';
+		
+		}
+	}
+	
+	</script>
+</head>
+<body>
+<noscript style="border: 1px solid red; background: orange; padding: 10px; display: block; text-align: center;">JavaScript must be enabled for full control!</noscript>
+<form action="http://localhost/gfx-v3/index.php?act=login" method="post">
+
+	<label for="username">Username</label>
+	<input type="text" name="username" id="username" /><br />
+	
+	<label for="password">Password</label>
+	<input type="password" name="password" id="password" /><br />
+	
+	<input type="radio" name="login_type" id="temp_login" value="temp_login" onclick="toggle()" /><label for="temp_login">Temporary login</label><br />
+	
+	<input type="radio" name="login_type" id="auto_login" value="auto_login" onclick="toggle()" /><label for="auto_login">Auto login</label>
+	
+	<div id="auto_options" style="display: none; padding-left: 20px;">
+		<input type="radio" name="auto_option" id="auto_option1" value="immideately" checked="checked" /><label for="auto_option1">Login immediately</label><br />
+		<input type="radio" name="auto_option" id="auto_option2" value="nick_only" /><label for="auto_option2">Save only nickname</label>
+	</div>
+	<br />
+	<input type="checkbox" name="auto_logout" id="auto_logout" /><label for="auto_logout">auto logout after</label> <input type="text" name="auto_logout_time" style="width: 20px;" /> minutes<br />
+
+	<input type="submit" />
+</form>
+
+</body>
+</html>

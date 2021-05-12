@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+        <title>
+            Testtitel - Test
+        </title>
+<script type="text/javascript">
+
+function init() {
+
+	in_action = false;
+
+}
+
+function change(e, click) {
+
+	if (!in_action && click === true) {
+
+		e.innerHTML='<input type="text" id="t_'+e.id+'" onchange="change(this, false)" value="'+e.firstChild.data+'">';
+		
+		in_action = true;
+
+	}
+	if(click === false) {
+		
+		if(document.getElementById(e.id).value != '') {
+		
+			document.getElementById(e.id.substr(2, e.id.length)).innerHTML=document.getElementById(e.id).value;
+			in_action = false;
+			
+		}
+		
+		
+	}
+
+}
+
+
+
+</script>
+</head>
+<body onload="init()">
+
+	<div id="foo" onclick="change(this, true)">
+	
+		Hier klicken zum ändern.
+	
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+        <title>
+            Testtitel - Test
+        </title>
+		<script type="text/javascript">
+
+			function init() {
+				
+				current_tab = 'foo';
+				
+			}
+		
+			function change_tab(id) {
+				
+				document.getElementById(current_tab).style.display='none';
+				document.getElementById(id).style.display='block';
+				
+				document.getElementById('l_'+id).style.backgroundColor='#CCDAEB';
+				document.getElementById('l_'+id).style.borderBottomColor='#CCDAEB';
+				document.getElementById('l_'+current_tab).style.backgroundColor='white';
+				document.getElementById('l_'+current_tab).style.borderBottomColor='gray';
+				
+				current_tab = id;
+				
+				return false;
+			}
+
+		</script>
+		
+		<style type="text/css">
+		
+			a {
+		
+				border: 1px solid gray;
+				padding: 1px;
+				cursor: pointer;
+				z-index: 1;
+				
+			}
+		
+		</style>
+</head>
+<body onload="init()">
+<div id="wrapper">
+
+	<a onclick="change_tab('foo')" id="l_foo">eins</a>
+	<a onclick="change_tab('bar')" id="l_bar">zwei</a>
+	<a onclick="document.getElementById(current_tab).style.display='none'" id="l_close">X</a>
+
+	<div id="foo" style="padding: 5px; border: 1px solid blue; background: #CCDAEB; height: 300px; width: 400px;">
+
+		Ich bin Inhalt von foo!
+
+	</div>
+
+	<div id="bar" style="padding: 5px; border: 1px solid blue; background: #CCDAEB; height: 300px; width: 400px; display: none;">
+
+		Und ich bin bar o//
+
+	</div>
+	
+</div>
+</body>
+</html>

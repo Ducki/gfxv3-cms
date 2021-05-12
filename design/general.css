@@ -1,0 +1,576 @@
+/************************************************
+|                 The Generals
+************************************************/
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+	font-family: Verdana, Sans-Serif;
+	font-size: 0.8em;
+	color: #555;
+}
+
+#wrapper
+{
+	height: 100%;
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#head_strip
+{
+	position: relative;
+}
+
+#head_link_strip
+{
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	position: absolute;
+	right: 15px;
+	top: 65px;
+}
+
+#head_link_strip li
+{
+	display: inline;
+	margin-left: 1em;
+	position: relative;
+	font-size: 0.8em;
+}
+
+#top_navi
+{
+	background: #1c1c1c;
+	width: 750px;
+	list-style-type: none;
+	margin: 0;
+	padding: 5px 20px;
+	font-size: 0.7em;
+	text-transform: uppercase;
+}
+
+#top_navi li
+{
+	display: inline;
+	margin-right: 20px;
+}
+
+fieldset
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+}
+
+p
+{
+	line-height: 1.5em;
+}
+
+#content p
+{
+	padding: 10px;
+}
+
+#right_navigation p
+{
+	font-size: 0.85em;
+	padding-left: 5px;
+}
+
+h2
+{
+	padding-left: 10px;
+	font-size: 1.25em;
+	font-weight: normal;
+	color: #4e6018;
+	border-bottom: 1px solid #f3f9e1;
+	margin-top: 28px;
+}
+
+h2.footer
+{
+	margin: 20px 0 0 0;
+	color: #8f957c;
+	font-size: 1.3em;
+	border-bottom: 0;
+	width: 300px;
+}
+
+ul.footer
+{
+	color: #dfe5ce;
+	width: 400px;
+}
+
+ul.footer li
+{
+	border-bottom: 1px solid #3d3d3d;
+}
+/************************************************
+|                The Hyperlinks
+************************************************/
+
+a:link
+{
+	color: #617421;
+	text-decoration: none;
+	border-bottom: 1px solid #cee67d;
+}
+
+.footer a:link
+{
+	color: #8ca730;
+	border-bottom: 1px solid #738046;
+	padding: 2px;
+}
+
+a:visited
+{
+	color: #617421;
+	text-decoration: none;
+	border-bottom: 1px solid #cee67d;
+}
+
+.footer a:visited
+{
+	color: #8ca730;
+}
+
+a:hover, .footer a:hover
+{
+	color: #425fa9;
+	text-decoration: none;
+	border-bottom: 1px solid #617421;	
+}
+
+
+
+
+/************************************************
+|                The Big Blocks
+************************************************/
+
+#left_navigation
+{
+	background: #eef0e2;
+	width: 180px;
+	height: 100%;
+	float: left;
+}
+
+#right_block
+{
+	width: 799px;
+	height: 100%;
+	position: relative;
+	float: right;
+}
+ 
+#content
+{
+	height: 100%;
+	width: 612px;
+}
+
+#right_navigation
+{
+	background: #eef0e2;
+	height: 100%;
+	width: 176px;
+	position: absolute;
+	top: 23px;
+	left: 613px;
+}
+
+#footer
+{
+	color: #fff;
+	background: #1d1d1d url('footer_back.png') top repeat-x;
+	bottom: 0px;
+	position: relative;
+
+	width: 950px;
+	padding: 10px;
+}
+ 
+/************************************************
+|                     Moep
+************************************************/
+
+#left_navigation h4
+{
+	color: #fff;
+	background: #000 url('images/search_icon.gif') no-repeat 5px;
+	margin: 0;
+	padding: 3px;
+	padding-left: 20px;
+	font-weight: normal;
+}
+
+#login_box fieldset
+{
+	margin-bottom: 5px;
+}
+
+#login_box a:link
+{
+	text-decoration: none;
+	color: #585a4c;
+	border-bottom:  1px solid #adafa4;
+}
+
+#login_box a:visited
+{
+	text-decoration: none;
+	color: #585a4c;
+	border-bottom:  1px solid #adafa4;
+}
+
+#login_box a:hover
+{
+	border-bottom: 1px solid #a1d02f;
+	color: #607620;
+}
+
+/************************************************
+|                 Top Navigation
+************************************************/
+
+#top_navi a:link
+{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#top_navi a.active_tn:link
+{
+	color: #add637;
+}
+
+#top_navi a:visited
+{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#top_navi a.active_tn:visited
+{
+	color: #add637;
+}
+
+#top_navi a:hover
+{
+	border-bottom: 1px solid #add637;
+	color: #eef0e2;
+}
+
+/************************************************
+|                 Header Navigation
+************************************************/
+
+#head_link_strip a:link
+{
+	color: #585a4c;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#head_link_strip a:visited
+{
+	color: #585a4c;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#head_link_strip a:hover
+{
+	border-bottom: 1px solid #add637;
+}
+
+
+/************************************************
+|             The Page Introduction
+************************************************/
+
+#page_intro
+{
+	
+	padding: 15px;
+	background: #f3f9e1;
+	vertical-align: middle;
+}
+
+#page_intro p
+{
+	padding: 0;
+	font-size: 0.8em;
+	color: #b2be90;
+	margin: 0;
+}
+
+#page_intro img
+{
+	float: left;
+	margin-right: 5px;
+}
+
+h1
+{
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #90b919;
+	margin: 0;
+	padding: 0;
+}
+
+
+/************************************************
+|                 The Search
+************************************************/
+
+#left_navigation form
+{
+	padding: 10px 0 0 10px;
+}
+
+#left_navigation #search_term
+{
+	font-size: 0.9em;
+	border: 1px solid #a2a68d;
+	padding: 2px;
+	color: #646464;
+	width: 93px;
+}
+
+#left_navigation #search_term:focus
+{
+	border: 1px solid #afd738;
+	background: #f3f7ea;
+}
+
+/************************************************
+|          The Left Navigation reloaded
+************************************************/
+
+h3
+{
+	font-size: 1.1em;
+	color: #fff;
+	padding: 5px 10px;
+	height: 32px;
+	background: url('images/sec_header_back.gif') repeat-x;
+}
+
+h3 span
+{
+	font-size: 0.7em;
+	font-weight: normal;
+	display: block;
+}
+
+#left_navigation ul
+{
+	margin: 0;
+	padding: 0 10px;
+	list-style-type: none;
+	font-size: 0.9em;
+}
+
+/*#left_navigation ul li
+{
+	margin: -15px;
+}
+*/
+#left_navigation ul li a:link
+{
+	display: block;
+	color: #585a4c;
+	padding: 6px 10px;
+	border-bottom:  1px dotted #70716a;
+	text-decoration: none;
+}
+
+#left_navigation ul li a:visited
+{
+	display: block;
+	color: #585a4c;
+	padding: 6px 10px;
+	border-bottom:  1px dotted #70716a;
+	text-decoration: none;
+}
+
+#left_navigation ul li a:hover
+{
+	background: #f3f5e7;
+	border-bottom: 1px solid #add637;
+	color: #607620;
+}
+
+/************************************************
+|              The Content Area
+************************************************/
+
+ul#breadcrump
+{
+	list-style-type: none;
+	margin: 1px 0;
+	padding: 8px 20px;
+	height: 17px;
+	background: url('images/breadcrump_back.gif');
+}
+
+ul#breadcrump li
+{
+	display: inline;
+	margin-right: 5px;
+	color: #fff;
+	font-size: 0.8em;
+}
+
+ul#breadcrump a
+{
+	padding: 5px;
+	font-weight: bold;
+}
+
+ul#breadcrump a:link
+{
+	color: #f2fadc;
+}
+
+ul#breadcrump a:visited
+{
+	color: #f2fadc;
+}
+
+ul#breadcrump a:hover
+{
+	color: #789625;
+	text-decoration: none;
+}
+
+
+.simple_listing
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+}
+
+.simple_listing li
+{
+	display: block;
+	padding: 8px;
+	border-bottom: 1px solid #f3f9e1;
+}
+
+/************************************************
+|                  The Forms
+************************************************/
+
+#login_box
+{
+	margin: 8px;
+}
+
+#note-pad textarea, #note-pad button
+{
+	display: block;
+	margin: 2px auto;
+}
+
+.normal_form fieldset
+{
+	padding: 10px;
+	border: 1px solid #eef0e2;
+	margin: 5px;
+}
+
+.normal_form fieldset legend
+{
+	color: #4e6018;
+	font-size: 1.1em;
+}
+
+.normal_form ol
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.normal_form ol li
+{
+
+	padding: 8px;
+	border: 1px solid #fff;
+}
+
+.normal_form ol li:hover
+{
+	border: 1px solid #b7db3e;
+}
+
+label
+{
+	display: block;
+	float: left;
+	width: 200px;
+}
+
+input[type = "checkbox"]
+{
+	float: left;
+}
+
+input[type = "text"], input[type = "password"], textarea
+{
+	font-family: Arial, Sans-Serif;
+	border: 1px solid #a2a68d;
+	border-bottom: 2px solid #a2a68d;
+	padding: 2px;
+	font-size: 0.9em;
+	color: #738646;
+	width: 355px;
+}
+
+input[type = "text"]:focus, input[type = "password"]:focus, textarea:focus
+{
+	border: 1px solid #a2a68d;
+	border-bottom: 2px solid #92c925;
+	padding: 2px;
+	font-size: 0.9em;
+	background: #fcfff3;
+	color: #363f21;
+}
+
+.normal_form button
+{
+	display: block;
+	margin-top: 2em;
+}
+
+button
+{
+	border: 1px solid #d5dab9;
+	background: #f3f9e1;
+	color: #7f982c;
+	font-size: 0.8em;
+}
+
+button:hover
+{
+	background: #fff;
+}
+

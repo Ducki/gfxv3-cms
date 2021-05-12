@@ -1,0 +1,1 @@
+a:1:{s:11:"permissions";a:5:{i:1;a:2:{s:4:"g_id";s:1:"1";s:15:"g_view_tutorial";s:1:"1";}i:2;a:2:{s:4:"g_id";s:1:"2";s:15:"g_view_tutorial";s:1:"1";}i:3;a:2:{s:4:"g_id";s:1:"3";s:15:"g_view_tutorial";s:1:"1";}i:4;a:2:{s:4:"g_id";s:1:"4";s:15:"g_view_tutorial";s:1:"1";}i:5;a:2:{s:4:"g_id";s:1:"5";s:15:"g_view_tutorial";s:1:"0";}}}

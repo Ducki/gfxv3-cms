@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+
+		<title>
+			GFX-World V3 &mdash; StyleGuide
+		</title>
+		
+		<link rel="stylesheet" href="general.css" media="screen" title="Standardstil" charset="iso-8859-1"/>
+		
+		<style type="text/css" media="screen">
+			
+			h1
+			{
+				font-size: 1.7em;
+				font-weight: normal;
+			}
+			
+			hr
+			{
+				margin: 3em 0 3em 0;
+			}
+			
+		</style>
+		
+		
+		
+	</head>
+	<body>
+
+		<h1>GFX-World V3 &mdash; StyleGuide</h1>
+
+		<p>
+			Features all relevant styles used for content. See source code for markup.
+		</p>
+		<p>
+			Status 2006/08/23, to be extended.
+		</p>
+		
+		<hr/>
+		
+		<!-- The Styles -->
+
+		<div id="page_intro">
+
+			<h1>This is h1 in div#page_intro</h1>
+			<p>This is p in div#page_intro.</p>
+
+		</div>
+
+		<hr/>
+
+		<h2>This is h2 &ndash; Used for section headings.</h2>
+
+		<hr/>
+
+		<h2 class="footer">This is h2 class="footer" &ndash; used only in footer</h2>
+
+		<hr/>
+
+		<h3>This is h3 &ndash; used for side box</h3>
+
+		<hr/>
+
+		<h4>This is h4 &ndash; not used yet</h4>
+
+		<hr/>
+
+		<p>
+			
+			This is p. Used for normal text.<br/>
+			foo bar foo bar foo bar
+			
+		</p>
+
+		<hr/>
+		
+		<ul class="simple_listing">
+
+			<li>This is ul class="simple listing"</li>
+			<li>Used for simple links lists or similar</li>
+			<li>Item three</li>
+			<li>
+				<a href="#">This is a</a>
+			</li>
+			
+		</ul>
+
+		<hr/>
+		
+		<form action="#" class="normal_form">
+
+			<p>This is form class="normal_form"</p>
+
+			<fieldset>
+				<legend>This is legend</legend>
+
+				<ol>
+
+					<li>
+						<label for="foo">This is label</label>
+						<input type="text" name="foo" id="foo" value="This is text input"/>
+					</li>
+
+					<li>
+						<label for="bar">This is label</label>
+						<textarea cols="50" rows="4" id="bar">This is textarea</textarea>
+					</li>
+					
+				</ol>
+
+				<button type="submit">This is button type="submit"</button>
+
+			</fieldset>
+			
+		</form>
+
+		<hr/>
+		
+		
+	</body>
+</html>

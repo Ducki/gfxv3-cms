@@ -1,0 +1,151 @@
+﻿/*
+//|-------------------------------------------|\\
+//|                   Gaze                    |\\
+//|                The Styles                 |\\
+//|-------------------------------------------|\\
+*/
+
+html
+{
+	min-height: 100%;
+	background: url('images2/global_back.gif');
+}
+
+body
+{
+	width: 931px;
+	margin: 0 auto;
+	padding: 0;
+	font-family: Calibri, Candara, Arial, Sans-Serif;
+	min-height: 100%;
+}
+
+
+img
+{
+	margin: 0;
+	padding: 0;
+}
+
+div#header
+{
+}
+
+div#middle
+{
+	width: 931px;
+	background: #fff;
+}
+
+div#left_navi
+{
+	width: 220px;
+	background: #edf5d3;
+	float: left;
+	min-height: 100%;
+}
+
+div#content
+{
+	width: 709px;
+	background: #fff;
+	margin-left: 222px;
+}
+
+div#footer
+{
+	clear: both;
+	width: 931px;
+	background: url('images2/footer_back.gif') repeat-x;
+	height: 116px;
+}
+
+
+
+p.upper_ribbon
+{
+	background: url('images2/upper_ribbon_back.gif') repeat-x;
+	color: #edf5d3;
+	margin: 0;
+	padding: 0;
+	font-size: 0.8em;
+	padding: 3px;
+	height: 27px;
+}
+
+ol#left_navi
+{
+	list-style-type: none;
+	margin: 0 0 0 0.5em;
+	padding: 0;
+}
+
+ol#left_navi li
+{
+	border-bottom: 1px dotted #aaa;
+	padding: 0.2em;
+}
+
+ol#left_navi li a:link
+{
+	color: #455a64;
+	text-decoration: none;
+}
+
+ol#left_navi li a:visited
+{
+	color: #455a64;
+	text-decoration: none;
+}
+
+ol#left_navi li a:hover
+{
+	color: #5062af;
+	text-decoration: none;
+	border-bottom: 1px solid #b3cedb;
+}
+
+/* Footer */
+
+div#footer div
+{
+	width: 200px;
+	float: left;
+}
+
+div#footer ul
+{
+	list-style-type: none;
+	margin: 0 0 0 1em;
+	padding: 0;
+}
+
+div#footer ul li
+{
+	width: 200px;
+}
+
+div#footer h3
+{
+	color: #fff;
+	margin: 0;
+}
+
+div#footer ul li a:link
+{
+	color: #e3e3e3;
+	text-decoration: none;
+}
+
+div#footer ul li a:visited
+{
+	color: #e3e3e3;
+	text-decoration: none;
+}
+
+div#footer ul li a:hover
+{
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid #7eb2e3;
+}

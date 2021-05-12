@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+
+		<link rel="stylesheet" href="general2.css" title="Standarddesign" media="screen"/>
+
+		<title>
+			Gaze - Designstudie
+		</title>
+
+
+	</head>
+	<body>
+		<div id="wrapper">
+
+
+			<div id="header">
+				<img src="images2/header.gif" alt="Kopfgrafik" width="931" height="93"/>
+			</div>
+
+			<div id="middle">
+
+				<div id="left_navi">
+
+					<p class="upper_ribbon">
+
+						upper ribbon
+
+					</p>
+
+					<form action="#" method="post">
+
+						<p>
+							<input type="text" name="search_query" id="search_query"/>
+						</p>
+
+					</form>
+
+					<h3>Navigation</h3>
+					<ol id="left_navi">
+						<li>
+							<a href="#">Startseite</a>
+						</li>
+
+						<li>
+							<a href="#">Galerie</a>
+						</li>
+
+						<li>
+							<a href="#">Workshops</a>
+						</li>
+
+						<li>
+							<a href="#">Forum</a>
+						</li>
+					</ol>
+
+					<br style="clear: both;"/>
+				</div>
+
+				<div id="content">
+
+					<p class="upper_ribbon">
+
+						upper ribbon
+
+					</p>
+
+					<h1>Neuigkeiten</h1>
+
+					<h4>ARD und ZEDF einig: bla bla bla</h4>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+
+					<h4>foo bar und überhaupt</h4>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+
+					<h4>kekse und erdbeertorte</h4>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+				</div>
+
+			</div>
+
+			<div id="footer">
+
+				<div>
+					<h3>Letzte Workshops</h3>
+					<ul>
+						<li>
+							<a href="#">eins zwei</a>
+						</li>
+
+						<li>
+							<a href="#">dreivier</a>
+						</li>
+
+						<li>
+							<a href="#">fünf sechs</a>
+						</li>
+
+						<li>
+							<a href="#">und sieben!</a>
+						</li>
+					</ul>
+				</div>
+
+				<div>
+					<h3>Letztes aus der Galerie</h3>
+					<ul>
+						<li>
+							<a href="#">eins zwei</a>
+						</li>
+
+						<li>
+							<a href="#">dreivier</a>
+						</li>
+
+						<li>
+							<a href="#">fünf sechs</a>
+						</li>
+
+						<li>
+							<a href="#">und sieben!</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h3>Olo Foobar</h3>
+					<ul>
+						<li>
+							<a href="#">eins zwei</a>
+						</li>
+
+						<li>
+							<a href="#">dreivier</a>
+						</li>
+
+						<li>
+							<a href="#">fünf sechs</a>
+						</li>
+
+						<li>
+							<a href="#">und sieben!</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<br style="clear: both;"/>
+
+		</div>
+
+	</body>
+</html>

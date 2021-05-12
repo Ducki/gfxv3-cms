@@ -1,0 +1,1 @@
+This is old code from around 2005-2007, that I've written from scratch as an admin for a former graphics design community (one of the biggest in Germany at that time). Unfortunately, it never reached finalization and the site met its fate like almost every other community from that time.

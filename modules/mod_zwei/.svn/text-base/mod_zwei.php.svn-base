@@ -1,0 +1,66 @@
+<?php
+/*
+//|-------------------------------------------|\\
+//|                Test module                |\\
+//|-------------------------------------------|\\
+*/
+/**
+ * Test module
+ *
+ * @author Ducki`
+ * @package V3
+ * @version 1.0.0
+*/
+defined('on_top') or die('You cannot access this file directly. Please go to index.php.<br />Du kannst diese Datei nicht direkt aufrufen. Bitte gehe zu index.php.');
+
+/**
+ * Test module class
+ * 
+ * Just for testing purposes
+ *
+ * @author Ducki`
+ * @version 1.0.0
+ */
+
+class module {
+
+	public $core;
+
+	public $result;
+
+
+	public function run_module() {
+
+
+		//$this->core->load_template('skin_boards');
+
+		//-------------------------------------------
+		//             Set up structure
+		//-------------------------------------------
+
+		switch(@$this->core->input['cmd']) {
+			case 'dosomething':			
+			$this->do_something();			
+			break;
+			
+			default:			
+			$this->core->template->add_output("No command given.");
+			break;
+		}
+
+		$this->core->template->add_output($this->result);
+		$this->core->template->output();
+
+	}
+
+
+	private function do_something()	{
+
+		$this->result = $this->core->templates['skin_global']->form_test('Miep eingeben:');
+
+	}
+
+
+}
+
+?>

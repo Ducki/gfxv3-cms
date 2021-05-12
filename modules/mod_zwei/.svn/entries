@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5"
+   name=""
+   committed-date="2005-10-25T20:48:04.156250Z"
+   url="file:///C:/Dokumente%20und%20Einstellungen/Ducki/Desktop/repo/gfx-v3/modules/mod_zwei"
+   last-author="Ducki"
+   kind="dir"
+   uuid="1a3d0ac6-321a-4c4a-8dd6-a1630f9039b9"
+   revision="9"/>
+<entry
+   committed-rev="5"
+   name="mod_zwei.php"
+   text-time="2005-10-25T20:49:37.546875Z"
+   committed-date="2005-10-25T20:48:04.156250Z"
+   checksum="dea531b582d5a15a7914436fb618f473"
+   last-author="Ducki"
+   kind="file"
+   prop-time="2005-10-25T20:49:37.546875Z"/>
+</wc-entries>

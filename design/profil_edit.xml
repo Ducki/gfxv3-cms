@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="application/xhtml+xml; charset=iso-8859-1" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<title>
+			Studie
+		</title>
+		<link rel="stylesheet" type="text/css" href="general.css" title="Standarddesign" media="screen" />
+
+	</head>
+	<body>
+		<div id="wrapper">
+
+			<div id="head_strip">
+
+				<img src="images/logo.gif" alt=""/>
+
+				<ul id="head_link_strip">
+
+					<li>
+						<a href="#">Forum</a>
+					</li>
+
+					<li>
+						<a href="#">Impressum</a>
+					</li>
+
+				</ul>
+
+			</div>
+
+			<div id="left_navigation">
+
+				<h4>Suche</h4>
+
+				<form action="#" method="post">
+
+					<fieldset>
+						<input type="text" name="search_term" id="search_term"/>
+						<button type="submit">Suchen</button>
+					</fieldset>
+
+				</form>
+
+				<h3>
+					Ducki
+					<span>Seine Page</span>
+				</h3>
+
+				<ul>
+
+					<li>
+						<a href="#">Profil bearbeiten</a>
+					</li>
+
+					<li>
+						<a href="#">Blog verwalten</a>
+					</li>
+
+					<li>
+						<a href="#">Eigene Beiträge</a>
+					</li>
+
+					<li>
+						<a href="#">Dateimanager</a>
+					</li>
+
+					<li>
+						<a href="#">Favoriten verwalten</a>
+					</li>
+
+					<li>
+						<a href="#">Buddys verwalten</a>
+					</li>
+
+				</ul>
+
+			</div>
+
+			<div id="right_block">
+
+
+				<ul id="top_navi">
+
+					<li>
+						<a href="#">Startseite</a>
+					</li>
+
+					<li>
+						<a href="#">Webauthoring</a>
+					</li>
+
+					<li>
+						<a href="#" class="active_tn">Fotografie</a>
+					</li>
+
+					<li>
+						<a href="#">Print</a>
+					</li>
+
+					<li>
+						<a href="#">Video-Editing</a>
+					</li>
+
+					<li>
+						<a href="#">3D-Art</a>
+					</li>
+
+				</ul>
+
+
+				<div id="content">
+
+					<ul id="breadcrump">
+
+						<li>
+							<a href="#">GFX-World</a>
+						</li>
+
+						<li>
+							<a href="#">Fotografie</a>
+						</li>
+
+						<li>
+							<a href="#">Tutorial</a>
+						</li>
+
+						<li>
+							Langzeitbelichtung
+						</li>
+
+					</ul>
+
+					<div id="page_intro">
+
+						<h1>Duckis Profil</h1>
+						<p>Bearbeite hier dein Profil.</p>
+
+					</div>
+
+					<form class="normal_form" action="#" method="post">
+
+						<fieldset>
+							<legend>Persönliche Daten</legend>
+
+							<ol>
+
+								<li>
+									<label for="name">Dein Name</label>
+									<input type="text" name="name" id="name"/>
+								</li>
+
+								<li>
+									<label for="foo">foo</label>
+									<input type="text" name="foo" id="foo"/>
+								</li>
+
+								<li>
+									<label for="foo">foo</label>
+									<input type="text" name="foo" id="foo"/>
+								</li>
+
+								<li>
+									<label for="foo">foo</label>
+									<input type="text" name="foo" id="foo"/>
+								</li>
+
+							</ol>
+
+
+
+						</fieldset>
+
+
+
+					</form>
+
+
+
+				</div>
+
+				<div id="right_navigation">
+
+					<p>
+						Hallo <a href="#">Ducki</a>!<br/>
+						Keine neuen <a href="#">Nachrichten</a>.
+					</p>
+
+					<h3>
+						Spotlight
+						<span>Samsung foobar</span>
+					</h3>
+
+					bla bla<br/>
+					unso!
+
+
+					<h3>
+						Voting
+						<span>Wie ist die V3?</span>
+					</h3>
+
+				</div>
+
+			</div>
+
+			<br style="clear: both;"/>
+
+			<div id="footer">
+
+				<div id="footer_left">
+					<h2 class="footer">Kürzlich hinzugefügt</h2>
+
+					<ul class="simple_listing footer">
+						<li>
+							<a href="#">foobar</a>
+						</li>
+						<li>
+							<a href="#">foobar</a>
+						</li>
+						<li>
+							<a href="#">foobar</a>
+						</li>
+					</ul>
+
+					<h2 class="footer">Kürzlich gebloggt</h2>
+
+					<ul class="simple_listing footer">
+						<li>
+							<a href="#">foobar</a>
+						</li>
+						<li>
+							<a href="#">foobar</a>
+						</li>
+						<li>
+							<a href="#">foobar</a>
+						</li>
+					</ul>
+
+					<h2 class="footer">Zufallszeug</h2>
+
+					<ul class="simple_listing footer">
+						<li>
+							<a href="#">foobar</a>
+						</li>
+						<li>
+							<a href="#">foobar</a>
+						</li>
+						<li>
+							<a href="#">foobar</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+	</body>
+</html>
